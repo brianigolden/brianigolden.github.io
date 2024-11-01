@@ -1,0 +1,135 @@
+body {
+  background-repeat: no-repeat;
+  background-image: url("images/forest_bckgrnd.png");
+  display: flex;
+  flex-direction: column;
+  background-position-x: center;
+  min-height: 100vh;
+}
+
+#buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+p {
+  text-align: center;
+}
+/*
+img {
+  height: 120px;
+  width: 120px;
+  position: relative;
+  display: flex;
+  flex-basis: auto;
+}
+*/
+h1 {
+  grid-area: header;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
+  color: darkred;
+}
+
+h2 {
+  grid-area: main;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
+  color: green;
+}
+
+#buttons li {
+  float: none;
+  list-style: none;
+  text-align: center;
+  background-color: #d5dbdb;
+  margin-right: 25px;
+  width: 100px;
+  color: black;
+  height: 60px;
+  line-height: 60px;
+}
+
+#buttons li a {
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+#buttons li a:hover {
+  text-decoration: none;
+  color: #efe812;
+  background-color: green;
+}
+
+header {
+  background-color: wheat;
+  padding: 0rem;
+}
+
+main {
+  padding: 3em;
+  flex-grow: 1;
+}
+
+header img {
+  height: 120px;
+  width: 190px;
+  margin-left: 45px;
+  padding: 15px;
+  padding-bottom: 20px;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 200px;
+  max-width: 200px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid yellowgreen;
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: greenyellow;
+}
+
+main {
+  align-content: center;
+  padding: 10rem;
+  flex-grow: 2;
+}
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  background: green;
+  padding: 0rem;
+}
+
+.filler {
+  height: 1000px;
+  width: 100%;
+}
